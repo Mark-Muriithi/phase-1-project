@@ -1,0 +1,90 @@
+/* CSS styles for the home page */
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.active {
+    font-weight: bold;
+    color: #ff5722; /* Some active color */
+}
+
+/* Search Section */
+.search-section {
+    padding: 20px;
+}
+
+.search-section h2 {
+    margin-top: 0;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"],
+.search-bar select {
+    flex: 1;
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    padding: 8px 20px;
+    background-color: #007bff; /* Bootstrap's primary color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3; /* Slightly darker shade */
+}
+
+/* Animal Options */
+.animal-options {
+    padding: 20px;
+}
+
+.animal-options h2 {
+    margin-top: 0;
+}
+
+.animal-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.animal-images img {
+    max-width: 50%;
+    border-radius: 5px;
+    cursor: pointer;
+}
